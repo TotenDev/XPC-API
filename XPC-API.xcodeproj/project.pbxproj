@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1C617415B4A407002156E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9E6E0415B0AAD700C608A4 /* Foundation.framework */; };
+		DA1C617D15B4A407002156E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1C617C15B4A407002156E4 /* main.m */; };
+		DA1C618315B4A42D002156E4 /* XPCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1C618215B4A42C002156E4 /* XPCClass.m */; };
+		DA1C618415B4A43B002156E4 /* XPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DFA15B0A9F800C608A4 /* XPCConnection.m */; };
+		DA1C618515B4A43B002156E4 /* XPCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DFC15B0A9F800C608A4 /* XPCMessage.m */; };
+		DA1C618615B4A43B002156E4 /* NSData+XPCAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6E2015B0AD6400C608A4 /* NSData+XPCAdds.m */; };
+		DA1C618915B4A445002156E4 /* com.totendev.XPC-API.client.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA1C617315B4A407002156E4 /* com.totendev.XPC-API.client.xpc */; };
+		DA9E6DDB15B0A9DF00C608A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9E6DDA15B0A9DF00C608A4 /* Cocoa.framework */; };
+		DA9E6DE715B0A9DF00C608A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DE615B0A9DF00C608A4 /* main.m */; };
+		DA9E6DEE15B0A9DF00C608A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DED15B0A9DF00C608A4 /* AppDelegate.m */; };
+		DA9E6DF115B0A9DF00C608A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9E6DEF15B0A9DF00C608A4 /* MainMenu.xib */; };
+		DA9E6DFD15B0A9F800C608A4 /* XPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DFA15B0A9F800C608A4 /* XPCConnection.m */; };
+		DA9E6DFE15B0A9F800C608A4 /* XPCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6DFC15B0A9F800C608A4 /* XPCMessage.m */; };
+		DA9E6E2115B0AD6400C608A4 /* NSData+XPCAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E6E2015B0AD6400C608A4 /* NSData+XPCAdds.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1C618715B4A43F002156E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9E6DCD15B0A9DE00C608A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1C617215B4A407002156E4;
+			remoteInfo = client;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA9E6E7C15B0BBE300C608A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/XPCServices;
+			dstSubfolderSpec = 1;
+			files = (
+				DA1C618915B4A445002156E4 /* com.totendev.XPC-API.client.xpc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA1C617315B4A407002156E4 /* com.totendev.XPC-API.client.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "com.totendev.XPC-API.client.xpc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1C617715B4A407002156E4 /* client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "client-Info.plist"; sourceTree = "<group>"; };
+		DA1C617B15B4A407002156E4 /* client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "client-Prefix.pch"; sourceTree = "<group>"; };
+		DA1C617C15B4A407002156E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA1C618115B4A42C002156E4 /* XPCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPCClass.h; path = ../XPCApp/XPCClass.h; sourceTree = "<group>"; };
+		DA1C618215B4A42C002156E4 /* XPCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPCClass.m; path = ../XPCApp/XPCClass.m; sourceTree = "<group>"; };
+		DA9E6DD615B0A9DF00C608A4 /* XPC-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XPC-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E6DDA15B0A9DF00C608A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA9E6DDD15B0A9DF00C608A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA9E6DDE15B0A9DF00C608A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA9E6DDF15B0A9DF00C608A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA9E6DE215B0A9DF00C608A4 /* XPC-API-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPC-API-Info.plist"; sourceTree = "<group>"; };
+		DA9E6DE615B0A9DF00C608A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9E6DE815B0A9DF00C608A4 /* XPC-API-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPC-API-Prefix.pch"; sourceTree = "<group>"; };
+		DA9E6DEC15B0A9DF00C608A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9E6DED15B0A9DF00C608A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA9E6DF015B0A9DF00C608A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DA9E6DF815B0A9F800C608A4 /* XPCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCAPI.h; sourceTree = "<group>"; };
+		DA9E6DF915B0A9F800C608A4 /* XPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCConnection.h; sourceTree = "<group>"; };
+		DA9E6DFA15B0A9F800C608A4 /* XPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCConnection.m; sourceTree = "<group>"; };
+		DA9E6DFB15B0A9F800C608A4 /* XPCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCMessage.h; sourceTree = "<group>"; };
+		DA9E6DFC15B0A9F800C608A4 /* XPCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCMessage.m; sourceTree = "<group>"; };
+		DA9E6E0415B0AAD700C608A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA9E6E1F15B0AD6400C608A4 /* NSData+XPCAdds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XPCAdds.h"; sourceTree = "<group>"; };
+		DA9E6E2015B0AD6400C608A4 /* NSData+XPCAdds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XPCAdds.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1C617015B4A407002156E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1C617415B4A407002156E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9E6DD315B0A9DF00C608A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E6DDB15B0A9DF00C608A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1C617515B4A407002156E4 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C618115B4A42C002156E4 /* XPCClass.h */,
+				DA1C618215B4A42C002156E4 /* XPCClass.m */,
+				DA1C617C15B4A407002156E4 /* main.m */,
+				DA1C617615B4A407002156E4 /* Supporting Files */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		DA1C617615B4A407002156E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C617715B4A407002156E4 /* client-Info.plist */,
+				DA1C617B15B4A407002156E4 /* client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9E6DCB15B0A9DE00C608A4 = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DF715B0A9F800C608A4 /* XPC-API */,
+				DA9E6DE015B0A9DF00C608A4 /* XPCMainApp */,
+				DA1C617515B4A407002156E4 /* client */,
+				DA9E6DD915B0A9DF00C608A4 /* Frameworks */,
+				DA9E6DD715B0A9DF00C608A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9E6DD715B0A9DF00C608A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DD615B0A9DF00C608A4 /* XPC-API.app */,
+				DA1C617315B4A407002156E4 /* com.totendev.XPC-API.client.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9E6DD915B0A9DF00C608A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DDA15B0A9DF00C608A4 /* Cocoa.framework */,
+				DA9E6E0415B0AAD700C608A4 /* Foundation.framework */,
+				DA9E6DDC15B0A9DF00C608A4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA9E6DDC15B0A9DF00C608A4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DDD15B0A9DF00C608A4 /* AppKit.framework */,
+				DA9E6DDE15B0A9DF00C608A4 /* CoreData.framework */,
+				DA9E6DDF15B0A9DF00C608A4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DA9E6DE015B0A9DF00C608A4 /* XPCMainApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DEC15B0A9DF00C608A4 /* AppDelegate.h */,
+				DA9E6DED15B0A9DF00C608A4 /* AppDelegate.m */,
+				DA9E6DEF15B0A9DF00C608A4 /* MainMenu.xib */,
+				DA9E6DE115B0A9DF00C608A4 /* Supporting Files */,
+			);
+			name = XPCMainApp;
+			path = XPCApp;
+			sourceTree = "<group>";
+		};
+		DA9E6DE115B0A9DF00C608A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DE215B0A9DF00C608A4 /* XPC-API-Info.plist */,
+				DA9E6DE615B0A9DF00C608A4 /* main.m */,
+				DA9E6DE815B0A9DF00C608A4 /* XPC-API-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9E6DF715B0A9F800C608A4 /* XPC-API */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E6DF815B0A9F800C608A4 /* XPCAPI.h */,
+				DA9E6DF915B0A9F800C608A4 /* XPCConnection.h */,
+				DA9E6DFA15B0A9F800C608A4 /* XPCConnection.m */,
+				DA9E6DFB15B0A9F800C608A4 /* XPCMessage.h */,
+				DA9E6DFC15B0A9F800C608A4 /* XPCMessage.m */,
+				DA9E6E1F15B0AD6400C608A4 /* NSData+XPCAdds.h */,
+				DA9E6E2015B0AD6400C608A4 /* NSData+XPCAdds.m */,
+			);
+			path = "XPC-API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1C617215B4A407002156E4 /* client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1C617E15B4A407002156E4 /* Build configuration list for PBXNativeTarget "client" */;
+			buildPhases = (
+				DA1C616F15B4A407002156E4 /* Sources */,
+				DA1C617015B4A407002156E4 /* Frameworks */,
+				DA1C617115B4A407002156E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = client;
+			productName = client;
+			productReference = DA1C617315B4A407002156E4 /* com.totendev.XPC-API.client.xpc */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DA9E6DD515B0A9DF00C608A4 /* XPC-API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9E6DF415B0A9DF00C608A4 /* Build configuration list for PBXNativeTarget "XPC-API" */;
+			buildPhases = (
+				DA9E6DD215B0A9DF00C608A4 /* Sources */,
+				DA9E6DD315B0A9DF00C608A4 /* Frameworks */,
+				DA9E6DD415B0A9DF00C608A4 /* Resources */,
+				DA9E6E7C15B0BBE300C608A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1C618815B4A43F002156E4 /* PBXTargetDependency */,
+			);
+			name = "XPC-API";
+			productName = XPCApp;
+			productReference = DA9E6DD615B0A9DF00C608A4 /* XPC-API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9E6DCD15B0A9DE00C608A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA9E6DD015B0A9DE00C608A4 /* Build configuration list for PBXProject "XPC-API" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA9E6DCB15B0A9DE00C608A4;
+			productRefGroup = DA9E6DD715B0A9DF00C608A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9E6DD515B0A9DF00C608A4 /* XPC-API */,
+				DA1C617215B4A407002156E4 /* client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1C617115B4A407002156E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9E6DD415B0A9DF00C608A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E6DF115B0A9DF00C608A4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1C616F15B4A407002156E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1C618415B4A43B002156E4 /* XPCConnection.m in Sources */,
+				DA1C618515B4A43B002156E4 /* XPCMessage.m in Sources */,
+				DA1C618615B4A43B002156E4 /* NSData+XPCAdds.m in Sources */,
+				DA1C617D15B4A407002156E4 /* main.m in Sources */,
+				DA1C618315B4A42D002156E4 /* XPCClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9E6DD215B0A9DF00C608A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E6DE715B0A9DF00C608A4 /* main.m in Sources */,
+				DA9E6DEE15B0A9DF00C608A4 /* AppDelegate.m in Sources */,
+				DA9E6DFD15B0A9F800C608A4 /* XPCConnection.m in Sources */,
+				DA9E6DFE15B0A9F800C608A4 /* XPCMessage.m in Sources */,
+				DA9E6E2115B0AD6400C608A4 /* NSData+XPCAdds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1C618815B4A43F002156E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1C617215B4A407002156E4 /* client */;
+			targetProxy = DA1C618715B4A43F002156E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA9E6DEF15B0A9DF00C608A4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9E6DF015B0A9DF00C608A4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1C617F15B4A407002156E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "client/client-Prefix.pch";
+				INFOPLIST_FILE = "client/client-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.totendev.XPC-API.client";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Debug;
+		};
+		DA1C618015B4A407002156E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "client/client-Prefix.pch";
+				INFOPLIST_FILE = "client/client-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.totendev.XPC-API.client";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Release;
+		};
+		DA9E6DF215B0A9DF00C608A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA9E6DF315B0A9DF00C608A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA9E6DF515B0A9DF00C608A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: TotenDev Desenvolvimento de Softwares LTDA";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPCApp/XPC-API-Prefix.pch";
+				INFOPLIST_FILE = "XPCApp/XPC-API-Info.plist";
+				PRODUCT_NAME = "XPC-API";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA9E6DF615B0A9DF00C608A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: TotenDev Desenvolvimento de Softwares LTDA";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPCApp/XPC-API-Prefix.pch";
+				INFOPLIST_FILE = "XPCApp/XPC-API-Info.plist";
+				PRODUCT_NAME = "XPC-API";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1C617E15B4A407002156E4 /* Build configuration list for PBXNativeTarget "client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1C617F15B4A407002156E4 /* Debug */,
+				DA1C618015B4A407002156E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9E6DD015B0A9DE00C608A4 /* Build configuration list for PBXProject "XPC-API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9E6DF215B0A9DF00C608A4 /* Debug */,
+				DA9E6DF315B0A9DF00C608A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9E6DF415B0A9DF00C608A4 /* Build configuration list for PBXNativeTarget "XPC-API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9E6DF515B0A9DF00C608A4 /* Debug */,
+				DA9E6DF615B0A9DF00C608A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9E6DCD15B0A9DE00C608A4 /* Project object */;
+}
