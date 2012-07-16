@@ -4,8 +4,8 @@ Objc/Foundation [XPC](http://developer.apple.com/library/mac/#documentation/MacO
 
 ## Requirements
 
-- [MacOS X](http://www.apple.com/br/osx/)
-- [XCode](https://developer.apple.com/xcode/)
+- [OS X](http://www.apple.com/osx/)
+- [Xcode](https://developer.apple.com/xcode/)
 
 ## Contributing
 
